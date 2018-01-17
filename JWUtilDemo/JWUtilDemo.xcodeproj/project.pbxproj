@@ -13,7 +13,7 @@
 		A6988E8C200DD9310005DB6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6988E8B200DD9310005DB6F /* Assets.xcassets */; };
 		A6988E8F200DD9310005DB6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6988E8D200DD9310005DB6F /* LaunchScreen.storyboard */; };
 		A6988E92200DD9310005DB6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6988E91200DD9310005DB6F /* main.m */; };
-		A6988E9C200DD98C0005DB6F /* JWUnitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A6988E9B200DD98C0005DB6F /* JWUnitHelper.m */; };
+		A6988F1D200EFDE40005DB6F /* JWUnitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A6988F1C200EFDE40005DB6F /* JWUnitHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		A6988E8E200DD9310005DB6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6988E90200DD9310005DB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6988E91200DD9310005DB6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6988E9A200DD98C0005DB6F /* JWUnitHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWUnitHelper.h; sourceTree = "<group>"; };
-		A6988E9B200DD98C0005DB6F /* JWUnitHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWUnitHelper.m; sourceTree = "<group>"; };
+		A6988F1B200EFDE40005DB6F /* JWUnitHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWUnitHelper.h; sourceTree = "<group>"; };
+		A6988F1C200EFDE40005DB6F /* JWUnitHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWUnitHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		A6988E81200DD9310005DB6F /* JWUtilDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A6988E98200DD9660005DB6F /* JWUtil */,
+				A6988F19200EFDE40005DB6F /* JWUtil */,
 				A6988E82200DD9310005DB6F /* AppDelegate.h */,
 				A6988E83200DD9310005DB6F /* AppDelegate.m */,
 				A6988E85200DD9310005DB6F /* ViewController.h */,
@@ -75,19 +75,20 @@
 			path = JWUtilDemo;
 			sourceTree = "<group>";
 		};
-		A6988E98200DD9660005DB6F /* JWUtil */ = {
+		A6988F19200EFDE40005DB6F /* JWUtil */ = {
 			isa = PBXGroup;
 			children = (
-				A6988E99200DD9660005DB6F /* Unit */,
+				A6988F1A200EFDE40005DB6F /* Unit */,
 			);
-			path = JWUtil;
-			sourceTree = SOURCE_ROOT;
+			name = JWUtil;
+			path = ../../JWUtil;
+			sourceTree = "<group>";
 		};
-		A6988E99200DD9660005DB6F /* Unit */ = {
+		A6988F1A200EFDE40005DB6F /* Unit */ = {
 			isa = PBXGroup;
 			children = (
-				A6988E9A200DD98C0005DB6F /* JWUnitHelper.h */,
-				A6988E9B200DD98C0005DB6F /* JWUnitHelper.m */,
+				A6988F1B200EFDE40005DB6F /* JWUnitHelper.h */,
+				A6988F1C200EFDE40005DB6F /* JWUnitHelper.m */,
 			);
 			path = Unit;
 			sourceTree = "<group>";
@@ -163,9 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6988E9C200DD98C0005DB6F /* JWUnitHelper.m in Sources */,
 				A6988E87200DD9310005DB6F /* ViewController.m in Sources */,
 				A6988E92200DD9310005DB6F /* main.m in Sources */,
+				A6988F1D200EFDE40005DB6F /* JWUnitHelper.m in Sources */,
 				A6988E84200DD9310005DB6F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
