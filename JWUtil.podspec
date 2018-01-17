@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Javen-fly/JWUtil.git", :tag => "0.0.1" }
 
   s.source_files  = "JWUtil/*.{h,m}"
+  s.source_files  = "JWUtil/Unit/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
